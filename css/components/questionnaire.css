@@ -1,0 +1,16 @@
+.questionnaire {
+background-color:#E9E9E9 ;
+padding: 20px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.questionnaire h3 {
+text-align:center;
+font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+font-weight: normal;
+color:#57303D;
+margin-bottom: 10px;
+background-color: #E9E9E9;
+}

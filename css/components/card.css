@@ -1,0 +1,79 @@
+.cards {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: white;
+}
+
+
+
+.card {
+width: 280px;
+height: 150px;
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 6px;
+margin: 20px 20px;
+flex-basis: 250px;
+flex-grow: 1;
+}
+
+
+#paris {
+background-image:linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)70%), url(../../images/paris.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#newyork {
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)50%), url(../../images/newyork.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#moscou {
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)70%), url(../../images/moscou.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#londres {
+background-image:linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)50%), url(../../images/londres.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#ecosse {
+background-image:linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)50%), url(../../images/edimbourg.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#inde {
+background-image:linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)70%), url(../../images/agra.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#john {
+padding: 30px;
+height: 0px;
+padding: 30px;
+}
+
+.card h3 {
+flex-grow: 1;
+padding-left: 20px;
+font-size:24px;
+color: white;
+text-align: center;
+font-weight: normal;
+}

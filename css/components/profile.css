@@ -1,0 +1,23 @@
+.profiles {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: white;
+}
+
+.profile {
+margin:20px;
+}
+
+.profile p{
+font-size: 12px;
+font-family: 'Raleway', sans-serif;
+font-weight: normal;
+width: 300px;
+}
+
+img.maison {
+width: 	325px;
+height: 200px;
+border-radius: 6px;
+}
